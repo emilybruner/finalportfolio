@@ -5,6 +5,8 @@
     justify-content: center;
     align-items: center;
 
+
+
     h2 {
         color: #141c3a;
         font-size: 2.5rem;
@@ -41,6 +43,10 @@
 .paragraph-container {
     background: rgb(117, 16, 247);
     padding: 8rem;
+    padding-bottom: 12rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     h3 {
         text-align: center;
@@ -59,6 +65,8 @@
         font-weight: 300;
         line-height: 1.5;
         vertical-align: baseline;
+        margin-bottom: 3%;
+        max-width: 60rem;
         
         
     }

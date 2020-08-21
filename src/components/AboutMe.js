@@ -17,7 +17,7 @@ export default function AboutMe() {
             </div>
             <div class='paragraph-container'>
             <h3>Hi, I'm Emily. Nice to meet you.</h3>
-            <p class='aboutme-p'>I'm a web developer based in Cary, NC experienced in developing web applications for both business and consumer use. I'm naturally curious and working on learning new ways to solve problems. </p>
+            <p class='aboutme-p'>I'm a web developer based in Cary, NC experienced in developing web applications for both business and consumer use. I'm naturally curious and constantly learning new ways to solve problems. </p>
             </div>
         </div>
         
