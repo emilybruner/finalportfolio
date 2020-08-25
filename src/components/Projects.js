@@ -1,6 +1,6 @@
 import React from 'react';
 import '../sass/Projects.scss'
-import bugtracker from '../img/bugtracker.png';
+import bugtracker from '../img/bugtracker2.jpg';
 import kansha from '../img/kansha.png';
 import professor from '../img/betterprof.PNG'
 
@@ -37,15 +37,16 @@ export default function Projects() {
             </div>    
             <div class='projects-container'>
                 <div class='project-box'>
-                    <div class='project-image-container'>
-                        <img src={bugtracker} alt='gift box' class='project-pic'/>
-                    </div>
-                    <div class='project-summary-container'>
+                    
+                    <div class='project-summary-container-mid'>
                         <h6 class='project-title'>Lambda Bug Tracker</h6>
                         <p class ='project description'>A web application that allows teams of developers to track bugs of projects they are working on and assign team members to be in charge of certain tasks. Built with a team of 6 other developers during a 30 hour hackathon.</p>
                         <p>Tech Stack:</p>
                         <p class='techstack'> React.js | Redux | Node.js | Express | Firebase | SASS</p>
                       
+                    </div>
+                    <div class='project-image-container' id='bigbug'>
+                        <img src={bugtracker} alt='gift box' class='project-pic'/>
                     </div>
                     
                 </div>
