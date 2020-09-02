@@ -4,12 +4,17 @@
     padding: 2rem;
     min-height: 3.25rem;
 
-    ul {
-        margin: 1%;
+    a {
+        text-decoration: none;
         font-family: europa, sans-serif;
         font-style: normal;
         font-weight: 300;
         color: #141c3a;
+    }
+
+    ul {
+        margin: 1%;
+
 
         .regnav {
             text-decoration: none;

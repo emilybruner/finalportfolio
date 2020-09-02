@@ -4,7 +4,7 @@ import '../sass/Skills.scss'
 
 export default function Skills() {
     return (
-        <div class='skills-container'>
+        <div class='skills-container' id='skills'>
           <div class='column-container'>
             <i class="fas fa-file-code fa-3x" ></i>
             <h5 class='skills-heading'>Front End</h5>

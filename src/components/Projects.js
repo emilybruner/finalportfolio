@@ -6,7 +6,7 @@ import professor from '../img/betterprof.PNG'
 
 export default function Projects() {
     return (
-        <div>
+        <div id='projects'>
             <h4>Featured Projects</h4>
             <div class='projects-container'>
                 <div class='project-box'>
@@ -31,7 +31,12 @@ export default function Projects() {
                             <li>Created new models and endpoints to allow for employees to be grouped into "Teams" which are managed by the administrator</li>
                             <li>Enhanced user and admin dashboards to create difference experiences for different user types</li>
                             <li>Front end testing using Jest</li>
-                        </ul>      
+                        </ul>  
+
+                    <div class='button-container'>
+                        <a href='http://www.kansharewards.com'><button>View Project</button></a>
+                        <button>View Code</button>
+                    </div>    
                 </div>
             
             </div>    
@@ -61,6 +66,10 @@ export default function Projects() {
                             <li>Created cards that are used to track progress of each bug</li>
                         </ul>      
                 </div>
+                    <div class='button-container'>
+                        <button>View Project</button>
+                        <button>View Code</button>
+                    </div> 
             
             </div>    
             <div class='projects-container'>
@@ -87,6 +96,10 @@ export default function Projects() {
                             <li>Developed a RESTful API with authentication and detailed documentation for the front end developers</li>
                         </ul>      
                 </div>
+                <div class='button-container'>
+                        <button>View Project</button>
+                        <button>View Code</button>
+                    </div> 
             
             </div>    
         </div>
