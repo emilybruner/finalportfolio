@@ -5,11 +5,9 @@ import AboutMe from './components/AboutMe'
 import Skills from './components/Skills'
 import Footer from './components/Footer' 
 import './App.css';
+import './sass/variables.scss';
 import {
-  BrowserRouter,
-  Link,
-  Route,
-  Switch,
+  BrowserRouter
 } from 'react-router-dom';
 
 function App() {

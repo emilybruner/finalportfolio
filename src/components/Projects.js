@@ -1,5 +1,4 @@
 import React from 'react';
-import '../sass/Projects.scss'
 import bugtracker from '../img/bugtracker2.jpg';
 import kansha from '../img/kansha.png';
 import professor from '../img/betterprof.PNG'
@@ -35,7 +34,7 @@ export default function Projects() {
 
                     <div class='button-container'>
                         <a href='http://www.kansharewards.com'><button>View Project</button></a>
-                        <button>View Code</button>
+                        <a href='https://github.com/emilybruner/kansha-fe'><button>View Code</button></a>
                     </div>    
                 </div>
             
@@ -67,8 +66,8 @@ export default function Projects() {
                         </ul>      
                 </div>
                     <div class='button-container'>
-                        <button>View Project</button>
-                        <button>View Code</button>
+                        <a href='https://lambda-bug-tracker.firebaseapp.com/'><button>View Project</button></a>
+                        <a href='https://github.com/Lambda-Bug-Tracker/Front-End'><button>View Code</button></a>
                     </div> 
             
             </div>    
@@ -97,8 +96,8 @@ export default function Projects() {
                         </ul>      
                 </div>
                 <div class='button-container'>
-                        <button>View Project</button>
-                        <button>View Code</button>
+                        <a href='https://betterprofessor25.herokuapp.com/docs/'><button>View Project</button></a>
+                        <a href='https://github.com/bw-better-professor/backend'><button>View Code</button></a>
                     </div> 
             
             </div>    

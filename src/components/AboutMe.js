@@ -1,5 +1,4 @@
 import React from 'react';
-import '../sass/AboutMe.scss';
 import bitmoji from '../img/bitmoji.PNG';
 
 

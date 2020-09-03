@@ -1,0 +1,117 @@
+.about-container {
+  margin: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (min-width: 500px) {
+  .about-container {
+    margin: 0 auto;
+    border: 2px solid red;
+  }
+}
+
+.about-container h2 {
+  color: #141c3a;
+  font-size: 2.5rem;
+  font-family: eurostile, sans-serif;
+  font-weight: 800;
+}
+
+@media (min-width: 500px) {
+  .about-container h2 {
+    text-align: center;
+  }
+}
+
+.about-container .subheading {
+  text-align: center;
+  margin: 1rem;
+  font-size: 1.5rem;
+  font-family: "europa", sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  color: rgba(10, 10, 10, 0.9);
+}
+
+.about-container .bitmoji-container {
+  margin: .5rem;
+}
+
+.about-container .bitmoji-container img {
+  width: 9rem;
+  height: 9rem;
+  position: relative;
+}
+
+.paragraph-container {
+  background: #7510f7;
+  padding: 8rem;
+  padding-bottom: 12rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.paragraph-container h3 {
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  font-family: eurostile, sans-serif;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.paragraph-container button {
+  line-height: 1.5px;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: white;
+  padding: 1.5rem;
+  text-decoration: none;
+  border: 2px solid #white;
+  border-radius: 290486px;
+  padding-left: calc(1em + 0.25em);
+  padding-right: calc(1em + 0.25em);
+  transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  font-weight: 500;
+}
+
+.paragraph-container button:hover {
+  background-color: #7510F7;
+  color: white;
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+}
+
+.paragraph-container .aboutme-p {
+  text-align: center;
+  color: #fff;
+  font-family: europa, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.5;
+  vertical-align: baseline;
+  margin-bottom: 3%;
+  max-width: 60rem;
+}
+/*# sourceMappingURL=AboutMe.css.map */
