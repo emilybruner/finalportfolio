@@ -42,4 +42,6 @@ table {
 	border-spacing: 0;
 }
 
-
+*{
+	border: 2px solid red;
+}
