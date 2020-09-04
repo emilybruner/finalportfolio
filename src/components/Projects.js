@@ -32,7 +32,7 @@ export default function Projects() {
                             <li>Front end testing using Jest</li>
                         </ul>  
 
-                    <div class='button-container'>
+                    <div class='button-container' id='first-buttons'>
                         <a href='http://www.kansharewards.com'><button>View Project</button></a>
                         <a href='https://github.com/emilybruner/kansha-fe'><button>View Code</button></a>
                     </div>    

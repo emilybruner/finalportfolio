@@ -184,6 +184,8 @@
     }
 }
 
+
+
 .button-container{
     margin: 0 auto;
     text-align: center;
@@ -216,5 +218,12 @@
              color: white;
              transform: translateY(-2px);
          }
+    }
+}
+
+#first-buttons {
+    @include respond(phone){
+        margin-left: 15%;
+        
     }
 }

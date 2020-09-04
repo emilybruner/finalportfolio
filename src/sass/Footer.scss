@@ -8,6 +8,13 @@
     padding: 4%;
     margin-top: 5%;
 
+    @include respond(phone){
+        height: 20vh;
+        padding-top: 15%;
+        padding-bottom: 25%;
+        
+    }
+
     h2 {
         color: #fff;
         text-align: center;
@@ -41,6 +48,11 @@
         align-items: center;
         width: 15%;
 
+        @include respond(phone){
+            margin-left: -45%;
+            
+        }
+
         i {
             color: white;
             padding: 4%;
@@ -53,7 +65,11 @@
             font-family: europa, sans-serif;
             opacity: .8;
             margin-left: 4%;
+
+           
         }
+
+
     }
 
     .copyright{
