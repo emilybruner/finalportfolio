@@ -78,7 +78,7 @@ export default function Projects() {
                     </div>
                     <div className='project-summary-container'>
                         <h6 className='project-title'>Better Professor</h6>
-                        <p className ='project description'>A full stack web application to assist professors in managing deadlines for their classNamees and keeping track of meetings. It allows users to create an account, add student accounts, and create events which can be tracked on a dashboard. This project was built with a team of 8 developers and a UX Designer.</p>
+                        <p className ='project description'>A full stack web application to assist professors in managing deadlines for their classes and keeping track of meetings. It allows users to create an account, add student accounts, and create events which can be tracked on a dashboard. This project was built with a team of 8 developers and a UX Designer.</p>
                         <p>Tech Stack:</p>
                         <p className='techstack'> React.js | Redux | Node.js | Express | Sqlite3 | Knex</p>
                       
